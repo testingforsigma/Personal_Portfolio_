@@ -1,0 +1,7 @@
+/* Configuration de l’assistant IA.
+ * Les appels passent par le Cloudflare Worker : la clé API reste côté Worker.
+ */
+window.PORTFOLIO_AI_CONFIG = {
+  apiUrl: "https://portfolio-ai-proxy.rayencheese.workers.dev/",
+  model: "gpt-4o-mini"
+};
